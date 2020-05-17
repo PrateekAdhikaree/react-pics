@@ -7,7 +7,10 @@ const ImageList = (props) => {
     return <ImageCard key={image.id} image={image} />;
   });
 
-  return <div className="image-list">{images}</div>;
+  if (images.length > 0) {
+    return <div className="image-list">{images}</div>;
+  }
+  return <h3 className="ui header">No results found!</h3>;
 };
 
 export default ImageList;
