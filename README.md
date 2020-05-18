@@ -1,14 +1,20 @@
 # Search Pics
 
+![screen](public/screen.jpg 'screen')
+
 ## Tools Used
 
 - react-js [[Ref]](https://reactjs.org/docs/getting-started.html)
 - Unsplash API [[Ref]](https://unsplash.com/documentation#getting-started)
 - Semantics UI (_for CSS_) [[Ref]](https://semantic-ui.com/introduction/getting-started.html)
 
-## Available Scripts
+## Running the project
 
 In the project directory, you can run:
+
+### `npm ci`
+
+Installs the required packages in node*modules directory from the \_package-lock.json* file.
 
 ### `npm start`
 
@@ -33,7 +39,3 @@ You will also see any lint errors in the console.
 1. Type any keyword in the input field
 2. Press 'Enter' to search for the keyword using Unsplash API
 3. Returned images displayed below
-
-## Screenshot
-
-![screen](public/screen.jpg 'screen')
