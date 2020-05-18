@@ -14,7 +14,7 @@ In the project directory, you can run:
 
 ### `npm ci`
 
-Installs the required packages in *node_modules* directory from the *_package-lock.json* file.
+Installs the required packages in *node_modules* directory from the *package-lock.json* file.
 
 ### `npm start`
 
