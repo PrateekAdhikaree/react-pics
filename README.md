@@ -39,3 +39,7 @@ You will also see any lint errors in the console.
 1. Type any keyword in the input field
 2. Press 'Enter' to search for the keyword using Unsplash API
 3. Returned images displayed below
+
+#### Credits
+
+Stephen Grider [Modern React with Redux [2020 Update]](https://www.udemy.com/course/react-redux/)
